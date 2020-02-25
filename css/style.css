@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+body::-webkit-scrollbar
+{
+  width: 7px;
+  background: #333;
+}
+body::-webkit-scrollbar-thumb
+{
+  background: #ee5253;
+  border-radius: 4px;
+}
+@media only screen and (max-width: 800px) {
+	
+}
+/*icons*/
+.fa-cc-paypal{
+	color: #8d2038;
+}
+.fa-cc-visa{
+	color: #8d2038;
+}
+.fa-cc-mastercard{
+	color: #8d2038;
+}
+.fa-credit-card{
+	color: #8d2038;
+}
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Ubuntu&display=swap');
+.slide {
+    width: 100%;
+    height: 100vh;
+    background: #c31432;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(left, rgb(36, 11, 54, .9), rgb(195, 20, 50, .9)), url('../assets/img/cc.jpg');
+    background: -o-linear-gradient(left, rgb(36, 11, 54, .9), rgb(195, 20, 50, .9)), url('../assets/img/cc.jpg');
+    background: linear-gradient(to right, rgb(36, 11, 54, .9), rgb(195, 20, 50, .9)), url('../assets/img/cc.jpg');
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.rabbits-team{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30vh;
+	margin: 0px auto;
+	width: 200px;
+	text-align: center;
+}
+.logo-img{
+	width: 200px;
+}
+.logo-text{
+	font-family: 'Odibee Sans';
+	font-size: 30px;
+	border: 2px solid #222f3e;
+	color: rgba(34, 47, 62,.5);
+	padding: 10px;
+	text-shadow: 0px 3px #222f3e;
+}
+.logo-text:hover{
+	text-shadow: 0px 3px rgba(16, 172, 132, .5);
+	cursor: pointer;
+	background: rgba(34, 47, 62);
+	color: #fff;
+}
+@media only screen and (max-width: 800px){
+	.abouteam{
+		position: relative;
+		flex-direction: column;
+	}
+	.section-about{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.separacion{
+		border:none;
+		border-top: 3px solid #ee5253;
+		height: 0px !important;
+		width: 200px;
+		margin: 10px;
+	}
+}
+.abouteam{
+	margin: 0px auto;
+	width: 100%;
+	background: #333;
+	display: flex;
+	justify-content: space-evenly;
+}
+.section-about{
+	padding: 20px;
+	border: 3px solid #ee5253;
+	margin: 20px 20px;
+	display: flex;
+	align-items: center;
+	border-radius: 9px;
+}
+.one-about{
+	width: 30%;
+}
+.icon-desc{
+	position: relative;
+	font-size: 50px;
+	margin: 0px 20px;
+}
+.separacion{
+	border: 3px solid #ee5253;
+	height: 200px;
+	margin: 10px;
+}
+.title-desc{
+	font-size: 30px;
+	font-family: 'Odibee Sans';
+	margin: 10px;
+	color: rgba(231, 76, 60, .7);
+	text-shadow: 0px 0px 10px #000;
+}
+.title-desc:hover{
+	color: rgba(231, 76, 60, 1.0);
+	cursor: pointer;
+}
+.text-info{
+	font-family: 'Ubuntu';
+	font-weight: bold;
+	font-size: 17px;
+	color: #e2404b;
+	text-shadow: 3px 3px 3px #222;
+}
+.all{
+	text-align: center;
+	font-family: 'Ubuntu';
+	font-weight: bold;
+}
+.footer{
+	padding: 30px;
+	background: #e2404b;
+}
